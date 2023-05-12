@@ -3,19 +3,19 @@
 
 #*Пример:*
 
-#A = 3; B = 5 -> 243 (3⁵)
-#    A = 2; B = 3 -> 8
-#def power (base,exp):
+A = 3; B = 5 -> 243 (3⁵)
+    A = 2; B = 3 -> 8
+def power (base,exp):
           
-#          if exp == 1:
-#            return 1
+          if exp == 1:
+            return 1
  
-#          if exp!= 1:      
-#             return(base ** exp )
+          if exp!= 1:      
+             return(base ** exp )
    
-#base = int(input ('введите число: '))
+base = int(input ('введите число: '))
 
-#exp = int(input ('введите число: '))
+exp = int(input ('введите число: '))
 
 #print( "возведение в степень", power(base, exp) ) 
 #Задача 28: Напишите рекурсивную функцию sum(a, b), возвращающую сумму 
